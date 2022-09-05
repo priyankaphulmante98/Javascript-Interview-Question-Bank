@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-1</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+
+//what are the possible ways to create objects in javascript
+// 1] object constructor
+
+// var object = new object();
+//  console.log(object());
+
+// var object = {
+//      name: "Sudheer",
+//      age: 34
+// };
+// console.log(object);
+
+ //3] function constructor
+// function Person(n,a){
+//     this.name=n,
+//     this.age=a
+// }
+// let person1 = new Person("priya", 23)
+// console.log(person1);
+
+// //function constructor with prototype
+
+// function Person(){
+//     Person.prototype.name ="priya";
+//     var object =new Person();
+// }
+// console.log();
+
+// // Create a new instance using function prototype.
+// var newInstance = Object.create(func.prototype)
+
+// // Call the function
+// var result = func.call(newInstance, x, y, z),
+
+// // If the result is a non-null object then use it otherwise just use the new instance.
+// console.log(result && typeof result === 'object' ? result : newInstance);
+
+// class Peroson{
+//     constructor(n,a,h){
+//         this.name=n;
+//         this.age=a;
+//         this.hobby=h;
+//     }
+// }
+
+// let person1 = new Peroson("priya", 23, "reading books");
+// console.log(person1);
+
+// let obj = {
+//     name:"priya",
+//     age:23,
+//     hobby:"swimmming"
+// }
+// console.log(obj);
+
+// var object = new (function(){
+// this.name ="priya";
+// })();
+
+//what is a prototype chain 
+
+// class Person{
+//     constructor(n,a,p){
+//         this.name=n;
+//         this.age=a;
+//         this.profession=p
+//  }
+// }
+// // let person2 = new Creature("priya", 23, "web developer", "swimming");
+// //     console.log(person2);
+
+//   class Creature extends Person{
+//         constructor(n,a,h,p){
+//             super(n,a,p,)
+//             this.hobby=h;
+           
+//         }
+
+//     }
+//     let person1 = new Creature("priya", 23, "web developer", "swimming");
+//          console.log(person1);
+
+        //class employ{
+//     constructor(n){
+//       this.name=n;
+
+//     }
+//     msg(){
+//         console.log("priya i am here");
+//     }
+// }
+
+// class manager extends employ{
+//  constructor(p,d){
+//     super(p)
+//     this.department = d ;
+//  }
+
+//  msg(){
+//     console.log("hello")
+//  }
+//  info(){
+//     this.msg();
+//     super.msg();
+//      console.log(this.name + " is a manager of department " + this .department)
+//  }
+// }
+
+// class admin extends manager{
+
+
+// }
+// let admin1 = new admin("priti" , "system engineer");
+// console.log(admin1)
+
+// let manager1 = new manager("priya", "web developer");
+// // console.log(manager1);
+// // console.log(manager1.info());
+//****************************************************************************>
+
+//prototype chaining
+
+// class Parent{
+//     constructor(n,a,p){
+//         this.name=n;
+//         this.age=a;
+//         this.profession=p;
+//     }
+//     msg(){
+//        console.log("hi priya");
+//     }
+    
+
+// }
+
+// class Child extends Parent{
+//     constructor(n,a,p,h,f){
+//         super(n,a,p)
+//         this.hobby=h;
+//         this.fullName=f;
+//     }
+// } 
+// let Child1 = new Child("priya",23,"software developer","swimming","Reddy");
+// console.log(Child1); 
+
+// <p id="demo"></p>
+
+
+// Add a new method
+// Array.prototype.myUcase = function() {
+//   for (let i = 0; i < this.length; i++) {
+//     this[i] = this[i].toUpperCase();
+//   }
+// };
+
+
+
+// // Add a new method
+// Array.prototype.myUcase = function() {
+//   for (let i = 0; i < this.length; i++) {
+//     this[i] = this[i].toUpperCase();
+//   }
+// };
+
+// // Use the method on any array
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.myUcase();
+// document.getElementById("demo").innerHTML 
+
+// function Person () { 
+//     this.name = 'John', 
+//     this. age = 23 
+// }
+// //  const person = new Person(); 
+// //  console.log(person);
+
+//  const words = ['hello', 'world', 'welcome'];
+
+//  console.log(words);
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+</script>
